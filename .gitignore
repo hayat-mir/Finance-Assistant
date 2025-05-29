@@ -1,0 +1,30 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore logs, temp files
+*.log
+*.tmp
+
+# Ignore large datasets or intermediate files (customize if needed)
+data_ingestion/
+orchestrator/temp/
+agents/temp/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment or secrets (if any)
+.env
+.env.*
+
+# Ignore Docker ignored files (optional)
+*.pid
+"gitignore" 
