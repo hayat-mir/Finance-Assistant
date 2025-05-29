@@ -1,7 +1,7 @@
 import time
-import yfinance as yf
+#import yfinance as yf
 from datetime import date, timedelta
-from yfinance.exceptions import YFRateLimitError
+#from yfinance.exceptions import YFRateLimitError
 
 def get_stock_summary(tickers):
     """
